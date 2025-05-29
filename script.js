@@ -33,25 +33,7 @@ async function weatherCheck(city) {
     wind.innerHTML = `${data.wind.speed} km/h`;
 
     image.src = 'https://openweathermap.org/img/wn/' + data.weather[0].icon + '.png';
-    // switch (data.weather[0].main) {
-    //     case 'Clouds':
-    //         image.src = 'assets/clouds.png';
-    //         break;
-    //     case 'Clear':
-    //         image.src = 'assets/clear.png';
-    //         break;
-    //     case 'Rain':
-    //         image.src = 'assets/rain.png';
-    //         break;
-    //     case 'Mist':
-    //         image.src = 'assets/mist.png';
-    //         break;
-    //     case 'Snow':
-    //         image.src = 'assets/snow.png';
-    //         break;
-    //     default:
-    //         image.src = '';
-    // }
+    
 
 
 }
